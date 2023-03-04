@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+body, html{
+	height:100%;
+	margin:0;
+	font-size:14.5px;
+	font-family:"Lato", sans-serif;
+	font-weight:400;
+	line-height:1.8em;
+	color:#666;
+}
+.wrapper::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #f91e53;
+  transition: width .3s;
+}
+.wrapper:hover::after{
+  width: 100%;
+  transition: width .3s;;
+
+}
+
+header {
+	position: relative;
+	background-color: #262626;
+	background-size: cover;
+  font-family: "Candara", sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin:0;
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 13%;
+  z-index: 10;
+  position: fixed;
+}
+
+.wrapper{
+  width: 1170px;
+margin: 0 auto;
+
+}
+.dropdown-item {
+  text-transform: uppercase;
+  font-family: "Candara", sans-serif;
+}
+
+.logo{
+	cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 1px;
+  text-decoration: none;
+	font-size: 25px;
+	font-weight: 700;
+	font-family: font-family: "Barlow Condensed", Arial, Tahoma, sans-serif;
+	color: #f91e53;
+	letter-spacing: 5px;
+  text-align: left;
+  width: 30%;
+	float: left;
+	line-height: 30px;
+}
+
+
+.dropdown-menu a {
+background-color:#262626;
+display:flex;
+	align-items:center;
+	text-decoration: none;
+  font-size: 14px;
+	letter-spacing: 5px;
+}
+.dropdown-menu{
+  background-color: #262626;
+
+}
+
+
+
+.nav_links i:hover {
+  color:#f91e53;
+    transform: scale(1.7);
+
+}
+.nav_links li a{
+  color:white;
+    text-decoration: none;
+}
+
+
+
+nav ul{
+  margin:0;
+  padding: 0 0 0 10px;
+  text-align: right;
+	transition: all 0.3s ease 0s;
+  text-decoration: none;
+
+}
+nav ul li{
+  display: inline-block;
+  list-style-type: none;
+	border-right: 1px dashed #333333;
+
+  padding: 5px 15px;
+  margin: 0;
+  background-color:#262626;
+  border-bottom: none;
+}
+
+nav a{
+  color:white;
+  text-decoration: none;
+  font-family: poppins;
+	letter-spacing: 2.5px;
+	font-size: 15px;
+	margin: -7px 10px ;
+
+}
+nav ul li:last-child{
+
+	border-right:none;
+}
+.nav_links {
+  text-decoration: none;
+}
+
+.pimg1{
+	position:relative;
+	opacity:0.85;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+
+	background-attachment:fixed;
+
+}
+.pimg2{
+	position:relative;
+	opacity:0.85;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+
+	background-attachment:fixed;
+
+}
+.pimg3{
+	position:relative;
+	opacity:0.85;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+
+	background-attachment:fixed;
+
+}
+.pimg4{
+	position:relative;
+	opacity:0.85;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+
+	background-attachment:fixed;
+
+}
+
+.pimg1{
+	background-image:url('../img/mic2.jpg');
+	min-height:120%;
+
+}
+.pimg2{
+	background-image:url('../img/big5.jpg');
+	min-height:800px;
+
+}
+.pimg3{
+	background-image:url('../img/icecube2.jpg');
+	min-height:800px;
+
+}
+.pimg4{
+	background-image:url('../img/tupac2.jpg');
+	min-height:800px;
+}
+.section{
+	text-align:center;
+	padding:20px 80px;
+	padding-bottom: 20px;
+	background-color:#262626;
+	color:white;
+	  border-radius: 18px;
+		border: 2.5px solid #fff;
+		outline: 0;
+		cursor: pointer;
+
+
+}
+.section p{
+	text-align: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: Monaco;
+	font-size: 17px;
+}
+.section h2{
+	font-family: 	Copperplate;
+	font-size: 45px;
+}
+.section h3{
+	font-family: 	Courier New;
+	font-size: 20px;
+}
+
+
+.ptext{
+	position:absolute;
+	top:80%
+	width:100%;
+	text-align:center;
+	font-size:27px;
+	letter-spacing:8px;
+	text-transform:uppercase;
+	padding-top: 19px;
+
+
+}
+.ptext {
+	color:#f91e53;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-bottom: 2px solid ;
+	border-radius: 30px;
+
+	letter-spacing: 3px;
+	background-color:transparent;
+
+}
+.pimg2::before{
+	content: '';
+	position: absolute;
+	top:-2px;
+	left: -2px;
+	width: 0;
+	height: 0;
+	border: 2px solid transparent ;
+
+	display: inline-block;
+}
+.pimg2:hover::before{
+	animation: animate 1s linear forwards;
+
+}
+
+.pimg3::before{
+	content: '';
+	position: absolute;
+	top:-2px;
+	left: -2px;
+	width: 0;
+	height: 0;
+	border: 2px solid transparent;
+}
+.pimg3:hover::before{
+	animation: animate 1s linear forwards;
+
+}
+.pimg4::before{
+	content: '';
+	position: absolute;
+	top:-2px;
+	left: -2px;
+	width: 0;
+	height: 0;
+	border: 2px solid transparent;
+}
+.pimg4:hover::before{
+	animation: animate 1s linear forwards;
+
+}
+@keyframes animate {
+	0%{
+		width:  0;
+		height: 0;
+		border-top-color:#f91e53;
+		border-right-color:#f91e53;
+		border-bottom-color:transparent;
+		border-left-color:transparent;
+	}
+	50%{
+		width:  100%;
+		height: 0;
+		border-top-color:#f91e53;
+		border-right-color:transparent;
+		border-bottom-color:transparent;
+		border-left-color:transparent;
+	}
+	100%{
+		width:  100%;
+		height:100%;
+		border-top-color:#f91e53;
+		border-right-color:#f91e53;
+		border-bottom-color:transparent;
+		border-left-color:transparent;
+	}
+
+}
+.container{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 60%;
+
+}
+.shape{
+
+	width: 400px;
+	height: 400px;
+background-image:url('../img/2.jpg');
+
+	border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+	animation: morph 4s ease-in-out infinite,
+						scaleIn 2s cubic-bezier(1, .01, .23, 1);
+						transition: all 4s ease;
+}
+@keyframes scaleIn {
+	0% {
+		transform: scale(0);
+	}
+	100%{
+		transform: scale(1);
+	}
+
+}
+@keyframes morph {
+	0%{
+		border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+	}
+	50%{
+		border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+	}
+	100%{
+		border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+	}
+
+}
+.shape h2{
+	align-items: center;
+	color: black;
+	padding-left:150px;
+	padding-top: 150px;
+	letter-spacing: 3px;
+	text-decoration: none;
+	font-size: 40px;
+	font-weight: 500;
+	font-family: font-family: "Barlow Condensed", Arial, Tahoma, sans-serif;
+}
+a, sans-serif;
+}
+serif;
+}

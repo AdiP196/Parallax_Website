@@ -1,0 +1,178 @@
+
+body,html{
+	background-image: url('../img/imagine1.jpeg');
+	height:100%;
+}
+
+.parallax{
+  background-image: url('../img/imagine1.jpeg');
+
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.meniu{
+  border-bottom: 100px;
+	padding: 0;
+}
+
+.meniu ul{
+  padding: 0;
+}
+.meniu ul li{
+	float:left;
+	list-style:none;
+	padding:25px;
+	text-transform:uppercase;
+	background:white;
+	border-right: 1px dashed #333333;
+}
+
+.meniu ul li:last-child{
+	border-right:none;
+
+}
+.meniu ul li a{
+	color:#333333;
+	text-decoration:none;
+	font-family:'Roboto';
+}
+
+.meniu ul li:hover{
+	color:#ff6600;
+	border-bottom:2px solid #ff6600;
+
+}
+.container{
+
+  margin-top: -200px;
+  background: #fff;
+  margin-right: 50px;
+
+	margin-bottom: -200px;
+}
+.card{
+  float:left;
+  margin-top: -200px;
+  background-color: #cccccc;
+
+}
+.card h1{
+  font-family: 'Roboto';
+  font-size:28px;
+  color:#333333;
+text-transform:uppercase;
+}
+.card h2{
+  font-family: 'Roboto';
+  font-size:28px;
+  color:#999;
+
+}
+.card .cardContent{
+  background: #fff;
+}
+.card .cardSocialMedia{
+  text-align: center;
+  border-top: 1px dashed #ccc;
+  padding: 10px;
+}
+.card .cardSocialMedia .fa{
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 30px;
+  margin: 5px;
+}
+    .card .cardSocialMedia .fa-facebook-square:hover{
+      color:#fff;
+      background: #0000ff;
+    }
+    .card .cardSocialMedia .fa-youtube:hover{
+      color:#fff;
+      background: #ff0000;
+    }
+    .card .cardSocialMedia .fa-twitter:hover{
+      color:#fff;
+      background: #000033;
+    }
+  .content{
+		padding-top: 35px;
+		border-top: 1px dashed black;
+  }
+
+	.hrcontent{
+		padding: 0;
+		border-top: 1px dashed #ccc;
+	}
+.Text{
+	border-top: 1px dashed black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.rowskillicon{
+	padding-top: 30px;
+	border-bottom: 1px dashed #243c4f;
+}
+.skill{
+	background: #eee;
+}
+.outerSkill{
+	border:1px solid #243c4f;
+	height: 6px;
+	border-radius: 5px;
+	margin-bottom: 25px;
+}
+.innerSkill{
+	background: #243c4f;
+	height:4px;
+
+}
+
+.skill10{
+	width: 10%;
+}
+.skill20{
+	width: 20%;
+}
+.skill50{
+	width: 50%;
+}
+.skill80{
+	width: 80%;
+}
+.skillicon{
+	float:left;
+}
+
+.skillicon .fa{
+	padding: 20px;
+  border: 1px solid #333;
+  border-radius: 35px;
+  margin: 25px;
+	background: #243c4f;
+	color:#fff;
+	font-size:20px;
+
+}
+.skilltxt{
+		float:left;
+		padding-top: 30px;
+		padding-left: 20px;
+		border-radius: 5px;
+}
+.skilltxt span{
+	color:#666666;
+}
+.abc {
+	font-size: 25px;
+padding-top: 10px;
+	color:red;
+	text-decoration: none;
+}
+.col-md-12{
+	text-decoration: none;
+
+}
